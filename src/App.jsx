@@ -4,11 +4,15 @@ import { TodoList } from "./components/TodoList";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Filters List</h1>
-      <NewTodo />
-      <Filters />
-      <TodoList />
+    <div>
+      <header>
+        <h1>Filters List</h1>
+      </header>
+      <main>
+        <NewTodo />
+        <Filters />
+        <TodoList />
+      </main>
     </div>
   );
 }
