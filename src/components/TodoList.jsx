@@ -21,7 +21,7 @@ export const TodoList = () => {
               />
               <p className={todo.done === true ? "done" : ""}>{todo.title}</p>
               <button onClick={() => dispatch(removeTodo(todo.todoId))}>
-                Delete
+                del
               </button>
             </li>
           ))}
