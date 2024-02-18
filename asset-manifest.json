@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/filter-todo_react-redux/static/css/main.cc19b19a.css",
+    "main.js": "/filter-todo_react-redux/static/js/main.a8f67c40.js",
+    "index.html": "/filter-todo_react-redux/index.html",
+    "main.cc19b19a.css.map": "/filter-todo_react-redux/static/css/main.cc19b19a.css.map",
+    "main.a8f67c40.js.map": "/filter-todo_react-redux/static/js/main.a8f67c40.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cc19b19a.css",
+    "static/js/main.a8f67c40.js"
+  ]
+}
