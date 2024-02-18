@@ -15,7 +15,7 @@ export const selectVisibleTodos = (state, filter) => {
       return state.todos.filter((todo) => todo.done);
     }
     default: {
-      return state.tods;
+      return state.todos;
     }
   }
 };
