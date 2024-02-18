@@ -1,0 +1,19 @@
+@import "./_Variables.scss";
+
+@mixin borderLine(
+  $border-right: 5px solid $button-border-line-color,
+  $border-bottom: 5px solid $button-border-line-color
+) {
+  border-right: $border-right;
+  border-bottom: $border-bottom;
+}
+
+@mixin borderGeneral($border: 2px solid $button-border-line-color) {
+  border: $border;
+}
+
+%statButton {
+  cursor: pointer;
+  transition: all 200ms;
+  border-radius: $main-border-radius;
+}
