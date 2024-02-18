@@ -1,0 +1,156 @@
+header {
+  display: flex;
+  height: 60px;
+  margin: 0 5%;
+  padding: 0.5%;
+  align-items: center;
+  color: $header-text-color;
+  background-color: $app-bg-text-color;
+
+  @media screen and (max-width: $mobile-tablet-width) {
+    justify-content: center;
+  }
+}
+
+main {
+  display: grid;
+  grid-template-columns: 0.7fr 0.3fr 2fr;
+  margin: 2% 5%;
+  padding: 0.5%;
+  background-color: $app-bg-text-color;
+
+  @media screen and (max-width: $mobile-tablet-width) {
+    grid-template-columns: 1fr;
+  }
+
+  .add-todo {
+    height: 100%;
+    @include borderLine($border-bottom: none);
+
+    @media screen and (max-width: $mobile-tablet-width) {
+      display: flex;
+      justify-content: center;
+      margin: 0 auto;
+      @include borderLine($border-right: none);
+    }
+
+    input {
+      margin-right: 1%;
+      padding: 2%;
+      outline: none;
+
+      @media screen and (max-width: $mobile-tablet-width) {
+        margin: 2%;
+        flex-basis: 300px;
+      }
+
+      &:focus {
+        @include borderGeneral;
+      }
+    }
+
+    input:last-child {
+      padding: 2.4%;
+      border-width: 0;
+      @extend %statButton;
+      color: $app-bg-text-color;
+      background-color: $button-border-line-color;
+
+      &:hover {
+        transform: scale(1.05);
+        background-color: $button-bg-hover-color;
+
+        @media screen and (max-width: $mobile-tablet-width) {
+          transform: none;
+          background-color: $button-border-line-color;
+        }
+      }
+    }
+  }
+
+  .filters-btns {
+    display: flex;
+    margin-left: 5%;
+    flex-direction: column;
+    gap: 10px;
+
+    @media screen and (max-width: $mobile-tablet-width) {
+      margin: 2% 0;
+      flex-direction: row;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    a {
+      width: 60px;
+      padding: 5%;
+      @include borderGeneral($border: 1px solid $button-border-line-color);
+      @extend %statButton;
+      text-decoration: none;
+      text-align: center;
+
+      @media screen and (max-width: $mobile-tablet-width) {
+        width: max-content;
+        padding: 2% 5%;
+      }
+
+      &:hover {
+        transform: scale(1.05);
+
+        @media screen and (max-width: $mobile-tablet-width) {
+          transform: none;
+        }
+      }
+    }
+  }
+
+  ul {
+    width: 50%;
+    list-style: none;
+
+    @media screen and (max-width: $mobile-tablet-width) {
+      width: 95%;
+      margin: 0 auto;
+    }
+
+    li {
+      display: flex;
+      margin-bottom: 20px;
+      flex-direction: row;
+      justify-content: space-between;
+
+      input {
+        width: 20px;
+      }
+    }
+
+    p {
+      flex-basis: 250px;
+      font-size: 1.5rem;
+      color: $todo-item-color;
+
+      &.done {
+        text-decoration: line-through;
+      }
+    }
+
+    button {
+      padding: 1%;
+      @include borderGeneral($border: 1px solid $del-button-border-color);
+      @extend %statButton;
+      text-transform: uppercase;
+      color: $del-button-border-color;
+      background-color: $del-button-bg-color;
+
+      &:hover {
+        transform: scale(1.05);
+        background-color: $del-button-hover-color;
+
+        @media screen and (max-width: $mobile-tablet-width) {
+          transform: none;
+          background-color: $del-button-bg-color;
+        }
+      }
+    }
+  }
+}
