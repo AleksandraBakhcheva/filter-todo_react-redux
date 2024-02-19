@@ -4,10 +4,10 @@ This app allows you to store your todos list based on filters ✔️
 
 ## Screens
 
-<img width="621" alt="desktop" src="https://github.com/AleksandraBakhcheva/filter-todo_react-redux/assets/76097160/ac12bf60-ebcb-430e-85e9-d5c8f0015684">
-<img width="195" alt="mobile" src="https://github.com/AleksandraBakhcheva/filter-todo_react-redux/assets/76097160/d699c86f-a2ca-46e7-80cc-d8b85da81ef9">
-<img width="621" alt="desktop" src="https://github.com/AleksandraBakhcheva/filter-todo_react-redux/assets/76097160/f7bb1f1f-2cf1-4574-aba8-788d986fdd30">
-<img width="195" alt="mobile" src="https://github.com/AleksandraBakhcheva/filter-todo_react-redux/assets/76097160/9df00922-1636-4bf8-a0d8-a299af4d17ce">
+<img width="621" alt="desktop" src="https://github.com/AleksandraBakhcheva/filter-todo_react-redux/assets/76097160/70789478-8702-43de-9b66-67f852b1d0f6">
+<img width="195" alt="mobile" src="https://github.com/AleksandraBakhcheva/filter-todo_react-redux/assets/76097160/783da4ec-e2b2-4809-a8ae-691470a26855">
+<img width="621" alt="desktop" src="https://github.com/AleksandraBakhcheva/filter-todo_react-redux/assets/76097160/e22fb5b0-7180-4b52-9309-af54ff5ba151">
+<img width="195" alt="mobile" src="https://github.com/AleksandraBakhcheva/filter-todo_react-redux/assets/76097160/34051016-9e33-49ed-950e-9c53c1f0028c">
 
 ## Technology stack
 
