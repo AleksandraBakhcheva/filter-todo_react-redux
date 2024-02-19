@@ -110,7 +110,7 @@ main {
 
     @media screen and (max-width: $mobile-tablet-width) {
       width: 95%;
-      margin: 0 auto;
+      margin: 2% auto;
     }
 
     li {
@@ -118,9 +118,18 @@ main {
       margin-bottom: 20px;
       flex-direction: row;
       justify-content: space-between;
+      align-items: center;
 
       input {
         width: 20px;
+        height: 20px;
+        -webkit-appearance: none;
+        background-color: $tick-bg-color;
+
+        &:checked {
+          background: url("../assets/images/tick.svg") no-repeat;
+          background-color: $tick-bg-color;
+        }
       }
     }
 
