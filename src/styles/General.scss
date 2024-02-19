@@ -138,6 +138,10 @@ main {
       font-size: 1.5rem;
       color: $todo-item-color;
 
+      @media screen and (max-width: $mobile-tablet-width) {
+        font-size: 1.2rem;
+      }
+
       &.done {
         text-decoration: line-through;
       }
