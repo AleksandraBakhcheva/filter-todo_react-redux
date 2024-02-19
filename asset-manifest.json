@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/filter-todo_react-redux/static/css/main.cc19b19a.css",
+    "main.css": "/filter-todo_react-redux/static/css/main.f2e4fca7.css",
     "main.js": "/filter-todo_react-redux/static/js/main.a8f67c40.js",
     "index.html": "/filter-todo_react-redux/index.html",
-    "main.cc19b19a.css.map": "/filter-todo_react-redux/static/css/main.cc19b19a.css.map",
+    "static/media/tick.svg": "/filter-todo_react-redux/static/media/tick.c258b98768d59d236d28.svg",
+    "main.f2e4fca7.css.map": "/filter-todo_react-redux/static/css/main.f2e4fca7.css.map",
     "main.a8f67c40.js.map": "/filter-todo_react-redux/static/js/main.a8f67c40.js.map"
   },
   "entrypoints": [
-    "static/css/main.cc19b19a.css",
+    "static/css/main.f2e4fca7.css",
     "static/js/main.a8f67c40.js"
   ]
 }
